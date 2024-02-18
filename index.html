@@ -7,7 +7,7 @@
   </head>
   <body style="text-align: center; padding: 0; border: 0; margin: 0;">
     <canvas class="webgl-content" id="unity-canvas" width=1920 height=1080 tabindex="-1" style="width: 1920px; height: 1080px; background: #231F20"></canvas>
-    <script src="Build/PressStart.loader.js"></script>
+    <script src="Build/PressStart_18-2-24.loader.js"></script>
     <script>
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: fill the whole browser client area with the game canvas:
@@ -42,9 +42,9 @@
       }
 
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/PressStart.data",
-        frameworkUrl: "Build/PressStart.framework.js",
-        codeUrl: "Build/PressStart.wasm",
+        dataUrl: "Build/PressStart_18-2-24.data",
+        frameworkUrl: "Build/PressStart_18-2-24.framework.js",
+        codeUrl: "Build/PressStart_18-2-24.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "KattaKittaXR",
         productName: "StartGame",
